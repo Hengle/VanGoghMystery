@@ -1,337 +1,14 @@
 fileFormatVersion: 2
-guid: 39b18d87990c0a943abfa882ca89e330
+guid: 2c641e0d31a213b4e932c1c33d1f7d78
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Character
-  - first:
-      1: 100004
-    second: Character Head
-  - first:
-      1: 100006
-    second: Character L Clavicle
-  - first:
-      1: 100008
-    second: Character L Finger0
-  - first:
-      1: 100010
-    second: Character L Finger01
-  - first:
-      1: 100012
-    second: Character L Finger02
-  - first:
-      1: 100014
-    second: Character L Finger1
-  - first:
-      1: 100016
-    second: Character L Finger11
-  - first:
-      1: 100018
-    second: Character L Finger12
-  - first:
-      1: 100020
-    second: Character L Finger2
-  - first:
-      1: 100022
-    second: Character L Finger21
-  - first:
-      1: 100024
-    second: Character L Finger22
-  - first:
-      1: 100026
-    second: Character L Finger3
-  - first:
-      1: 100028
-    second: Character L Finger31
-  - first:
-      1: 100030
-    second: Character L Finger32
-  - first:
-      1: 100032
-    second: Character L Finger4
-  - first:
-      1: 100034
-    second: Character L Finger41
-  - first:
-      1: 100036
-    second: Character L Finger42
-  - first:
-      1: 100038
-    second: Character L Forearm
-  - first:
-      1: 100040
-    second: Character L Hand
-  - first:
-      1: 100042
-    second: Character L Thigh
-  - first:
-      1: 100044
-    second: Character L UpperArm
-  - first:
-      1: 100046
-    second: Character Neck
-  - first:
-      1: 100048
-    second: Character Pelvis
-  - first:
-      1: 100050
-    second: Character R Clavicle
-  - first:
-      1: 100052
-    second: Character R Finger0
-  - first:
-      1: 100054
-    second: Character R Finger01
-  - first:
-      1: 100056
-    second: Character R Finger02
-  - first:
-      1: 100058
-    second: Character R Finger1
-  - first:
-      1: 100060
-    second: Character R Finger11
-  - first:
-      1: 100062
-    second: Character R Finger12
-  - first:
-      1: 100064
-    second: Character R Finger2
-  - first:
-      1: 100066
-    second: Character R Finger21
-  - first:
-      1: 100068
-    second: Character R Finger22
-  - first:
-      1: 100070
-    second: Character R Finger3
-  - first:
-      1: 100072
-    second: Character R Finger31
-  - first:
-      1: 100074
-    second: Character R Finger32
-  - first:
-      1: 100076
-    second: Character R Finger4
-  - first:
-      1: 100078
-    second: Character R Finger41
-  - first:
-      1: 100080
-    second: Character R Finger42
-  - first:
-      1: 100082
-    second: Character R Forearm
-  - first:
-      1: 100084
-    second: Character R Hand
-  - first:
-      1: 100086
-    second: Character R Thigh
-  - first:
-      1: 100088
-    second: Character R UpperArm
-  - first:
-      1: 100090
-    second: Character Spine
-  - first:
-      1: 100092
-    second: Character Spine1
-  - first:
-      1: 100094
-    second: Character Spine2
-  - first:
-      1: 100096
-    second: Female_Torso_1
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Character
-  - first:
-      4: 400004
-    second: Character Head
-  - first:
-      4: 400006
-    second: Character L Clavicle
-  - first:
-      4: 400008
-    second: Character L Finger0
-  - first:
-      4: 400010
-    second: Character L Finger01
-  - first:
-      4: 400012
-    second: Character L Finger02
-  - first:
-      4: 400014
-    second: Character L Finger1
-  - first:
-      4: 400016
-    second: Character L Finger11
-  - first:
-      4: 400018
-    second: Character L Finger12
-  - first:
-      4: 400020
-    second: Character L Finger2
-  - first:
-      4: 400022
-    second: Character L Finger21
-  - first:
-      4: 400024
-    second: Character L Finger22
-  - first:
-      4: 400026
-    second: Character L Finger3
-  - first:
-      4: 400028
-    second: Character L Finger31
-  - first:
-      4: 400030
-    second: Character L Finger32
-  - first:
-      4: 400032
-    second: Character L Finger4
-  - first:
-      4: 400034
-    second: Character L Finger41
-  - first:
-      4: 400036
-    second: Character L Finger42
-  - first:
-      4: 400038
-    second: Character L Forearm
-  - first:
-      4: 400040
-    second: Character L Hand
-  - first:
-      4: 400042
-    second: Character L Thigh
-  - first:
-      4: 400044
-    second: Character L UpperArm
-  - first:
-      4: 400046
-    second: Character Neck
-  - first:
-      4: 400048
-    second: Character Pelvis
-  - first:
-      4: 400050
-    second: Character R Clavicle
-  - first:
-      4: 400052
-    second: Character R Finger0
-  - first:
-      4: 400054
-    second: Character R Finger01
-  - first:
-      4: 400056
-    second: Character R Finger02
-  - first:
-      4: 400058
-    second: Character R Finger1
-  - first:
-      4: 400060
-    second: Character R Finger11
-  - first:
-      4: 400062
-    second: Character R Finger12
-  - first:
-      4: 400064
-    second: Character R Finger2
-  - first:
-      4: 400066
-    second: Character R Finger21
-  - first:
-      4: 400068
-    second: Character R Finger22
-  - first:
-      4: 400070
-    second: Character R Finger3
-  - first:
-      4: 400072
-    second: Character R Finger31
-  - first:
-      4: 400074
-    second: Character R Finger32
-  - first:
-      4: 400076
-    second: Character R Finger4
-  - first:
-      4: 400078
-    second: Character R Finger41
-  - first:
-      4: 400080
-    second: Character R Finger42
-  - first:
-      4: 400082
-    second: Character R Forearm
-  - first:
-      4: 400084
-    second: Character R Hand
-  - first:
-      4: 400086
-    second: Character R Thigh
-  - first:
-      4: 400088
-    second: Character R UpperArm
-  - first:
-      4: 400090
-    second: Character Spine
-  - first:
-      4: 400092
-    second: Character Spine1
-  - first:
-      4: 400094
-    second: Character Spine2
-  - first:
-      4: 400096
-    second: Female_Torso_1
-  - first:
-      21: 2100000
-    second: Female_Torso_1
-  - first:
-      23: 2300000
-    second: //RootNode
-  - first:
-      23: 2300002
-    second: Female_Torso_1
-  - first:
-      33: 3300000
-    second: //RootNode
-  - first:
-      33: 3300002
-    second: Female_Torso_1
-  - first:
-      43: 4300000
-    second: Female_Torso_1
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: Female_Torso_1
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Female_Torso_1
-    second: {fileID: 2100000, guid: 26889b2f294a8a74a865631bc0dff45d, type: 2}
+  internalIDToNameTable: []
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -346,7 +23,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -354,7 +31,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -366,7 +43,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -382,7 +59,7 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -392,7 +69,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
@@ -400,252 +77,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton:
-    - name: Female_Torso_1(Clone)
-      parentName: 
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Female_Torso_1
-      parentName: Female_Torso_1(Clone)
-      position: {x: -0.0000000010229868, y: 0.0000000010229868, z: -0.02340321}
-      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Character
-      parentName: Female_Torso_1(Clone)
-      position: {x: -0, y: 0.9157601, z: -0.0040032943}
-      rotation: {x: -0.50000036, y: 0.49999964, z: 0.49999964, w: 0.50000036}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1}
-    - name: Character Pelvis
-      parentName: Character
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.5, y: -0.5000007, z: -0.49999934, w: -0.49999994}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Character Spine
-      parentName: Character Pelvis
-      position: {x: -0.051805265, y: 0.01579174, z: 0.00000002815781}
-      rotation: {x: 0.0000020712614, y: 0.0000007003546, z: 0.03858386, w: -0.9992554}
-      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
-    - name: Character Spine1
-      parentName: Character Spine
-      position: {x: -0.12552299, y: -0.00009627342, z: -2.6702765e-10}
-      rotation: {x: -0.000000059604645, y: 0.00000035762787, z: -0.13572764, w: -0.99074626}
-      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
-    - name: Character Spine2
-      parentName: Character Spine1
-      position: {x: -0.125531, y: -0.00009809494, z: -2.7204805e-10}
-      rotation: {x: -0.000000059604645, y: -0.00000020861626, z: 0.096411794, w: 0.99534154}
-      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
-    - name: Character L Clavicle
-      parentName: Character Spine2
-      position: {x: -0.1098703, y: -0.006412964, z: 0.02535145}
-      rotation: {x: -0.630611, y: -0.09574993, z: 0.766179, w: 0.07830415}
-      scale: {x: 1.0000002, y: 1, z: 1.0000004}
-    - name: Character L UpperArm
-      parentName: Character L Clavicle
-      position: {x: -0.10327282, y: -0.000000038146972, z: 0.000000076293944}
-      rotation: {x: 0.19128026, y: 0.09895372, z: 0.09654216, w: 0.97175086}
-      scale: {x: 1, y: 1.0000001, z: 1}
-    - name: Character L Forearm
-      parentName: Character L UpperArm
-      position: {x: -0.24985091, y: 0, z: 0}
-      rotation: {x: -0.003818585, y: 0.016159633, z: 0.035794083, w: 0.99922127}
-      scale: {x: 0.9999998, y: 1, z: 1.0000002}
-    - name: Character L Hand
-      parentName: Character L Forearm
-      position: {x: -0.17549811, y: -0.000000019073486, z: 0.000000076293944}
-      rotation: {x: 0.57064503, y: 0.00000010724004, z: -0.00000005764926, w: -0.8211969}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
-    - name: Character L Finger3
-      parentName: Character L Hand
-      position: {x: -0.09150016, y: 0.000414505, z: 0.016642265}
-      rotation: {x: -0.008491331, y: 0.025219753, z: -0.061883327, w: 0.9977286}
-      scale: {x: 0.9999998, y: 1, z: 0.9999998}
-    - name: Character L Finger31
-      parentName: Character L Finger3
-      position: {x: -0.020615386, y: 0, z: 0}
-      rotation: {x: 0.0000000074505753, y: 0.0000015851099, z: -0.03776346, w: 0.9992868}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000004}
-    - name: Character L Finger32
-      parentName: Character L Finger31
-      position: {x: -0.020615386, y: 0, z: -0.000000019073486}
-      rotation: {x: 0.0000016408769, y: -0.00000027624614, z: -0.11640214, w: 0.99320215}
-      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
-    - name: Character L Finger4
-      parentName: Character L Hand
-      position: {x: -0.0783017, y: 0.0001449585, z: 0.03663864}
-      rotation: {x: -0.024414703, y: 0.040999055, z: -0.040522773, w: 0.99803853}
-      scale: {x: 0.99999994, y: 1, z: 0.99999994}
-    - name: Character L Finger41
-      parentName: Character L Finger4
-      position: {x: -0.016515885, y: 0, z: 0.000000038146972}
-      rotation: {x: -0.000000108033326, y: 0.0000008493655, z: -0.037769746, w: 0.9992865}
-      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000002}
-    - name: Character L Finger42
-      parentName: Character L Finger41
-      position: {x: -0.016516037, y: 0.000000038146972, z: 0}
-      rotation: {x: -0.00000004359275, y: -0.00000009161852, z: -0.11640224, w: 0.9932022}
-      scale: {x: 1.0000005, y: 1.0000005, z: 1.000001}
-    - name: Character L Finger0
-      parentName: Character L Hand
-      position: {x: -0.020092582, y: -0.0007395172, z: -0.022232438}
-      rotation: {x: -0.49575555, y: 0.29803398, z: -0.24294983, w: -0.77870244}
-      scale: {x: 0.9999998, y: 1, z: 1.0000002}
-    - name: Character L Finger01
-      parentName: Character L Finger0
-      position: {x: -0.038755834, y: 0.000000076293944, z: 0.000000038146972}
-      rotation: {x: 0.00000017881383, y: 0.0000019222487, z: -0.03671258, w: 0.99932593}
-      scale: {x: 1, y: 0.9999998, z: 1.0000002}
-    - name: Character L Finger02
-      parentName: Character L Finger01
-      position: {x: -0.024004515, y: 0.000000038146972, z: -0.000000038146972}
-      rotation: {x: -9.9142e-10, y: 0.000000009311085, z: 0.06280785, w: 0.9980257}
-      scale: {x: 0.99999994, y: 1.0000006, z: 1}
-    - name: Character L Finger1
-      parentName: Character L Hand
-      position: {x: -0.093835905, y: 0.0016597747, z: -0.0267659}
-      rotation: {x: 0.0017901057, y: -0.030827096, z: -0.070777364, w: 0.99701405}
-      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
-    - name: Character L Finger11
-      parentName: Character L Finger1
-      position: {x: -0.021460304, y: -0.000000076293944, z: 0.000000009536743}
-      rotation: {x: -0.00000031886137, y: -0.0000002793966, z: -0.039731503, w: 0.9992105}
-      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
-    - name: Character L Finger12
-      parentName: Character L Finger11
-      position: {x: -0.021460494, y: 0, z: 0.000000009536743}
-      rotation: {x: 0.000000114155874, y: -0.00000008115329, z: -0.0777662, w: 0.99697167}
-      scale: {x: 1, y: 1, z: 1.0000001}
-    - name: Character L Finger2
-      parentName: Character L Hand
-      position: {x: -0.097029954, y: -0.00081443787, z: -0.003909378}
-      rotation: {x: -0.0042166095, y: 0.003420979, z: -0.072084896, w: 0.9973838}
-      scale: {x: 1, y: 0.99999994, z: 0.9999997}
-    - name: Character L Finger21
-      parentName: Character L Finger2
-      position: {x: -0.022343215, y: 0, z: -0.000000009536743}
-      rotation: {x: -0.00000007636839, y: -0.0000013529777, z: -0.039439417, w: 0.999222}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
-    - name: Character L Finger22
-      parentName: Character L Finger21
-      position: {x: -0.022342987, y: 0, z: -0.000000009536743}
-      rotation: {x: -0.00000007332635, y: 0.000000094627765, z: -0.028404035, w: 0.9995966}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000006}
-    - name: Character R Clavicle
-      parentName: Character Spine2
-      position: {x: -0.1098703, y: -0.006412811, z: -0.025351483}
-      rotation: {x: 0.6306112, y: 0.095747665, z: 0.7661792, w: 0.07830237}
-      scale: {x: 1.0000007, y: 1.0000008, z: 1.0000006}
-    - name: Character R UpperArm
-      parentName: Character R Clavicle
-      position: {x: -0.10327282, y: -0.000000038146972, z: -0.000000076293944}
-      rotation: {x: -0.19128022, y: -0.098953694, z: 0.09654222, w: 0.9717508}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-    - name: Character R Forearm
-      parentName: Character R UpperArm
-      position: {x: -0.24985091, y: -0.000000009536743, z: 0}
-      rotation: {x: 0.003818363, y: -0.016159683, z: 0.035794105, w: 0.99922127}
-      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
-    - name: Character R Hand
-      parentName: Character R Forearm
-      position: {x: -0.17549808, y: -0.000000038146972, z: 0}
-      rotation: {x: 0.5706449, y: -0.00000005655199, z: -0.000000106263485, w: 0.821197}
-      scale: {x: 1.0000002, y: 1.0000002, z: 1}
-    - name: Character R Finger4
-      parentName: Character R Hand
-      position: {x: -0.07830177, y: 0.0001449585, z: -0.03663864}
-      rotation: {x: 0.024415245, y: -0.04099989, z: -0.040523313, w: 0.9980385}
-      scale: {x: 1.0000005, y: 1.0000007, z: 1}
-    - name: Character R Finger41
-      parentName: Character R Finger4
-      position: {x: -0.016515998, y: 0, z: 0}
-      rotation: {x: 0.00000033713866, y: 0.0000023245802, z: -0.03777729, w: 0.99928623}
-      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000001}
-    - name: Character R Finger42
-      parentName: Character R Finger41
-      position: {x: -0.016516114, y: 0, z: 0.000000038146972}
-      rotation: {x: -0.00000012236485, y: 0.00000003989378, z: -0.11640227, w: 0.99320215}
-      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
-    - name: Character R Finger3
-      parentName: Character R Hand
-      position: {x: -0.091500245, y: 0.0004145813, z: -0.016642246}
-      rotation: {x: 0.008492258, y: -0.02522122, z: -0.061881375, w: 0.9977287}
-      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000001}
-    - name: Character R Finger31
-      parentName: Character R Finger3
-      position: {x: -0.020615425, y: 0, z: 0.000000019073486}
-      rotation: {x: 0.000000047497423, y: 0.00000022910521, z: -0.037773665, w: 0.9992863}
-      scale: {x: 0.99999994, y: 1, z: 1}
-    - name: Character R Finger32
-      parentName: Character R Finger31
-      position: {x: -0.020615386, y: 0.000000038146972, z: 0.000000019073486}
-      rotation: {x: 0.0000040625177, y: -0.0000005232253, z: -0.11640212, w: 0.99320215}
-      scale: {x: 1, y: 1.0000001, z: 1.0000001}
-    - name: Character R Finger0
-      parentName: Character R Hand
-      position: {x: -0.020092696, y: -0.0007395172, z: 0.022232465}
-      rotation: {x: 0.49575478, y: -0.2980334, z: -0.24295071, w: -0.778703}
-      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000007}
-    - name: Character R Finger01
-      parentName: Character R Finger0
-      position: {x: -0.038755834, y: 0.000000076293944, z: -0.000000076293944}
-      rotation: {x: -0.00000011920926, y: -0.0000003129243, z: -0.03671234, w: 0.99932593}
-      scale: {x: 1, y: 1, z: 1.0000002}
-    - name: Character R Finger02
-      parentName: Character R Finger01
-      position: {x: -0.024004515, y: 0.000000038146972, z: 0}
-      rotation: {x: -0.00000015375693, y: 0.000000059459985, z: 0.062807724, w: 0.9980257}
-      scale: {x: 1, y: 1.0000002, z: 0.9999998}
-    - name: Character R Finger1
-      parentName: Character R Hand
-      position: {x: -0.09383598, y: 0.001659851, z: 0.026765918}
-      rotation: {x: -0.0017898972, y: 0.030827254, z: -0.07077718, w: 0.99701405}
-      scale: {x: 1.0000005, y: 1.0000007, z: 1}
-    - name: Character R Finger11
-      parentName: Character R Finger1
-      position: {x: -0.021460265, y: -0.000000076293944, z: 0}
-      rotation: {x: 0.00000021839514, y: -0.00000013783574, z: -0.0397252, w: 0.9992107}
-      scale: {x: 1, y: 0.99999994, z: 1.0000002}
-    - name: Character R Finger12
-      parentName: Character R Finger11
-      position: {x: -0.021460494, y: 0.000000076293944, z: -0.000000028610229}
-      rotation: {x: -0.000000020646167, y: 0.00000006292718, z: -0.07776621, w: 0.99697167}
-      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
-    - name: Character R Finger2
-      parentName: Character R Hand
-      position: {x: -0.09703003, y: -0.0008145141, z: 0.003909397}
-      rotation: {x: 0.0042167893, y: -0.0034195576, z: -0.07208626, w: 0.9973837}
-      scale: {x: 1.0000006, y: 1.0000007, z: 1}
-    - name: Character R Finger21
-      parentName: Character R Finger2
-      position: {x: -0.022343138, y: 0.000000076293944, z: -0.000000009536743}
-      rotation: {x: -0.0000000703148, y: -0.0000013213128, z: -0.039441712, w: 0.99922186}
-      scale: {x: 0.99999994, y: 1.0000001, z: 1}
-    - name: Character R Finger22
-      parentName: Character R Finger21
-      position: {x: -0.022342987, y: -0.000000038146972, z: 0.000000019073486}
-      rotation: {x: -0.00000011496622, y: 0.00000012265653, z: -0.028404023, w: 0.9995966}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
-    - name: Character Neck
-      parentName: Character Spine2
-      position: {x: -0.12558739, y: -0.00006416321, z: -1.7796992e-10}
-      rotation: {x: -0.000000089813476, y: -0.00000066537774, z: 0.2598551, w: -0.96564764}
-      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
-    - name: Character Head
-      parentName: Character Neck
-      position: {x: -0.093120724, y: -0.000000019073486, z: 0}
-      rotation: {x: 0.00000011018486, y: -0.00000045286413, z: -0.06870179, w: -0.9976372}
-      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
-    - name: Character L Thigh
-      parentName: Character Pelvis
-      position: {x: 0.000000076293944, y: 0.0000001502037, z: 0.07944066}
-      rotation: {x: 0.04139535, y: 0.9990152, z: 0.0006828308, w: 0.015960097}
-      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999997}
-    - name: Character R Thigh
-      parentName: Character Pelvis
-      position: {x: -0.000000076293944, y: -0.00000007033348, z: -0.079440676}
-      rotation: {x: 0.041395366, y: 0.99901515, z: -0.0006840527, w: -0.015958697}
-      scale: {x: 1.0000001, y: 1, z: 1}
+    skeleton: []
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -656,14 +88,14 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
