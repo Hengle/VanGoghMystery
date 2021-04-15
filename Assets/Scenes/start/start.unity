@@ -309,7 +309,7 @@ CanvasGroup:
   m_GameObject: {fileID: 313682911}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
+  m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!95 &313682917
@@ -606,6 +606,7 @@ MonoBehaviour:
   waiting_text: {fileID: 1710077943108463}
   room_button: {fileID: 1718467931191491}
   start_button: {fileID: 1432879763996158}
+  button_animator: {fileID: 0}
 --- !u!4 &1042692798
 Transform:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155265309}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 418f649f1cf6f374ea133a0419852328, type: 3}
@@ -1660,7 +1661,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114527566673372235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1042692797}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
+        m_MethodName: OnRoomGameButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &114154621964781454
 MonoBehaviour:
   m_ObjectHideFlags: 0
