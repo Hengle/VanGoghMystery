@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/start/start.unity
     guid: a87f81cc80bcb644ba707f706bf169cd
+  - enabled: 1
+    path: Assets/Scenes/bedroom/bedroom.unity
+    guid: e1c571d83c6a51b4b9c040a8e1914f61
   m_configObjects: {}

@@ -43,6 +43,12 @@ public class Launcher : MonoBehaviourPunCallbacks
         start_button.GetComponent<Button>().interactable = false;
         roompanel.SetActive(true);
     }
+    public void OnRoomGameButtonClicked()
+    {
+
+        Debug.Log("Room!");
+        Application.LoadLevel("Scenes/bedroom/bedroom");
+    }
 
 
     public override void OnConnectedToMaster()
