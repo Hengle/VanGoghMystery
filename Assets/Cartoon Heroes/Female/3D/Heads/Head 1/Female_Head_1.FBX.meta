@@ -1,14 +1,64 @@
 fileFormatVersion: 2
-guid: cbb8b92f253afb04986f12fe6fe75d4a
+guid: f778d65360c43c3488f0f6aee8c4fd8f
+timeCreated: 1572279430
+licenseType: Store
 ModelImporter:
-  serializedVersion: 20200
-  internalIDToNameTable: []
-  externalObjects: {}
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Character
+    100004: Character Head
+    100006: Character Neck
+    100008: Character Pelvis
+    100010: Character Spine
+    100012: Character Spine1
+    100014: Character Spine2
+    100016: Female_Head_1
+    100018: Character Head 1
+    100020: Character Head Mesh
+    100022: Character L Eyebrow
+    100024: Character R Eyebrow
+    400000: //RootNode
+    400002: Character
+    400004: Character Head
+    400006: Character Neck
+    400008: Character Pelvis
+    400010: Character Spine
+    400012: Character Spine1
+    400014: Character Spine2
+    400016: Female_Head_1
+    400018: Character Head 1
+    400020: Character Head Mesh
+    400022: Character L Eyebrow
+    400024: Character R Eyebrow
+    2100000: No Name
+    2100002: Female_Head_1
+    2300000: //RootNode
+    2300002: Female_Head_1
+    2300004: Character Head
+    2300006: Character Head Mesh
+    3300000: //RootNode
+    3300002: Female_Head_1
+    3300004: Character Head
+    3300006: Character Head Mesh
+    4300000: Female Head 1
+    4300002: Female_Head_1
+    4300004: Character Head
+    4300006: Character Head Mesh
+    9500000: //RootNode
+    13700000: Character Head Mesh
+    13700002: Female_Head_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Female_Head_1
+    second: {fileID: 2100000, guid: 09440252667b4c342a784b9f0a6feef6, type: 2}
   materials:
-    materialImportMode: 2
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -22,8 +72,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -31,37 +80,27 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -69,13 +108,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -85,17 +121,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
