@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public class InputManagement : MonoBehaviourPunCallbacks
 {
-    public float rotSpeed = 300;
+    public float rotSpeed = 150;
     public float moveSpeed = 2;
 
     private Animator animator;
@@ -14,7 +14,6 @@ public class InputManagement : MonoBehaviourPunCallbacks
     void Start()
     {
         animator = GetComponent<Animator>();
-        
     }
 
     // Update is called once per frame
