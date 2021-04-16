@@ -1,33 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
 using TMPro;
+using Balrond3PersonMovements;
 
 public class Global : MonoBehaviourPunCallbacks
 {
     public GameObject female;
+    public GameObject male;
+    public GameObject playerCamera;
 
     // Start is called before the first frame update
     void Start()
     {
-        GameObject playerCamera = GameObject.Find("Main Camera");
+        GameObject pc = Instantiate(playerCamera, new Vector3(0, 0, 0), Quaternion.identity);
+        Balrond3pCameraFollow cameraFollow = pc.GetComponent<Balrond3pCameraFollow>();
+
         GameObject character;
         if (PhotonNetwork.IsMasterClient)
         {
-            character = PhotonNetwork.Instantiate(this.female.name, new Vector3(0, 0, 0), Quaternion.identity, 0);
+            character = PhotonNetwork.Instantiate(female.name, new Vector3(0, 0, 0), Quaternion.identity, 0);
             
         }
         else
         {
-            character = PhotonNetwork.Instantiate(this.female.name, new Vector3(0, 0, 3), Quaternion.identity, 0);
+            character = PhotonNetwork.Instantiate(male.name, new Vector3(-1, 0, -1), Quaternion.identity, 0);
         }
-        playerCamera.transform.SetParent(character.transform);
-        playerCamera.transform.localPosition = new Vector3(0, 1.85f, -1.4f);
-        playerCamera.transform.localRotation = Quaternion.Euler(new Vector3(19, 0, 0));
+        cameraFollow.target = character.transform;
     }
 
     // Update is called once per frame

@@ -1,35 +1,72 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Photon.Pun;
+using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
-public class InputManagement : MonoBehaviourPunCallbacks
+namespace UnityStandardAssets.Characters.ThirdPerson
 {
-    public float rotSpeed = 150;
-    public float moveSpeed = 2;
-
-    private Animator animator;
-
-    // Start is called before the first frame update
-    void Start()
+    [RequireComponent(typeof(ThirdPersonCharacter))]
+    public class InputManagement : MonoBehaviourPunCallbacks
     {
-        animator = GetComponent<Animator>();
-    }
+        private ThirdPersonCharacter m_Character; // A reference to the ThirdPersonCharacter on the object
+        private Transform m_Cam;                  // A reference to the main camera in the scenes transform
+        private Vector3 m_CamForward;             // The current forward direction of the camera
+        private Vector3 m_Move;                   // the world-relative desired move direction, calculated from the camForward and user input.
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+
+        private void Start()
         {
-            return;
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
+            // get the transform of the main camera
+            if (Camera.main != null)
+            {
+                m_Cam = Camera.main.transform;
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "Warning: no main camera found. Third person character needs a Camera tagged \"MainCamera\", for camera-relative controls.", gameObject);
+                // we use self-relative controls in this case, which probably isn't what the user wants, but hey, we warned them!
+            }
+            // get the third person character ( this should never be null due to require component )
+            m_Character = GetComponent<ThirdPersonCharacter>();
         }
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-        v = v < 0 ? 0 : v;
-        animator.SetFloat("Forward", v + h * h);
 
-        transform.Rotate(new Vector3(0, h * rotSpeed * Time.deltaTime, 0), Space.Self);
-        transform.Translate(v * transform.forward * moveSpeed * Time.deltaTime, Space.World);
-        
+
+        // Fixed update is called in sync with physics
+        private void FixedUpdate()
+        {
+            if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
+            {
+                return;
+            }
+            // read inputs
+            float h = CrossPlatformInputManager.GetAxis("Horizontal");
+            float v = CrossPlatformInputManager.GetAxis("Vertical");
+
+            // calculate move direction to pass to character
+            if (m_Cam != null)
+            {
+                // calculate camera relative direction to move:
+                m_CamForward = Vector3.Scale(m_Cam.forward, new Vector3(1, 0, 1)).normalized;
+                m_Move = v * m_CamForward + h * m_Cam.right;
+            }
+            else
+            {
+                // we use world-relative directions in the case of no main camera
+                m_Move = v * Vector3.forward + h * Vector3.right;
+            }
+#if !MOBILE_INPUT
+            // walk speed multiplier
+            if (Input.GetKey(KeyCode.LeftShift)) m_Move *= 0.5f;
+#endif
+
+            // pass all parameters to the character control script
+            m_Character.Move(m_Move, false, false); // Do not allow crouch and jump
+        }
     }
 }
