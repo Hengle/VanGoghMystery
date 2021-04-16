@@ -16,6 +16,10 @@ public class Global : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+
+        PhotonNetwork.PrefabPool.RegisterPrefab(female.name, female);
+        PhotonNetwork.PrefabPool.RegisterPrefab(male.name, male);
+
         GameObject pc = Instantiate(playerCamera, new Vector3(0, 0, 0), Quaternion.identity);
         Balrond3pCameraFollow cameraFollow = pc.GetComponent<Balrond3pCameraFollow>();
 
@@ -37,4 +41,5 @@ public class Global : MonoBehaviourPunCallbacks
     {
         
     }
+
 }

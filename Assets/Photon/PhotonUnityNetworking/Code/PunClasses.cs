@@ -116,6 +116,8 @@ namespace Photon.Pun
             PhotonNetwork.RemoveCallbackTarget(this);
         }
 
+
+
         /// <summary>
         /// Called to signal that the raw connection got established but before the client can call operation on the server.
         /// </summary>
@@ -881,6 +883,7 @@ namespace Photon.Pun
                 }
             }
 
+
             bool wasActive = res.activeSelf;
             if (wasActive) res.SetActive(false);
 
@@ -888,6 +891,17 @@ namespace Photon.Pun
 
             if (wasActive) res.SetActive(true);
             return instance;
+        }
+        public void RegisterPrefab(string prefabID, GameObject prefab)
+        {
+            if (!this.ResourceCache.ContainsKey(prefabID))
+            {
+                ResourceCache.Add(prefabID, prefab);
+            }
+            else
+            {
+                Debug.LogError($"A prefab was already registered with the key '{prefabID}' make sure you use a unique Key for each prefab or not registered multiple times.");
+            }
         }
 
         /// <summary>Simply destroys a GameObject.</summary>

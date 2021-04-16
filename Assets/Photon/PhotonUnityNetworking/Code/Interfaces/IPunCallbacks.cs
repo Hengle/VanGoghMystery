@@ -127,7 +127,7 @@ namespace Photon.Pun
         /// <param name="rotation">The rotation for the instance.</param>
         /// <returns>A disabled instance to use by PUN or null if the prefabId is unknown.</returns>
         GameObject Instantiate(string prefabId, Vector3 position, Quaternion rotation);
-
+        void RegisterPrefab(string prefabID, GameObject prefab);
         /// <summary>
         /// Called to destroy (or just return) the instance of a prefab. It's disabled and the pool may reset and cache it for later use in Instantiate.
         /// </summary>
