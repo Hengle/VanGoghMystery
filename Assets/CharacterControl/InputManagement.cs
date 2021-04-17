@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
-
+using UnityEngine.UI;
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
     [RequireComponent(typeof(ThirdPersonCharacter))]
@@ -14,6 +14,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_CamForward;             // The current forward direction of the camera
         private Vector3 m_Move;                   // the world-relative desired move direction, calculated from the camForward and user input.
 
+
+        public Button pickup;
+        public Button escape;
+        public Button inventory;
 
         private void Start()
         {
@@ -36,7 +40,23 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             m_Character = GetComponent<ThirdPersonCharacter>();
         }
 
+        void Update()
+        {
 
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                Debug.Log("Try pickup");
+                if (pickup.IsInteractable()) pickup.Select();
+            }
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Show inventory");
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Debug.Log("Show EXIT MENU");
+            }
+        }
         // Fixed update is called in sync with physics
         private void FixedUpdate()
         {
