@@ -49,10 +49,9 @@ namespace Balrond3PersonMovements
         {
             if (target)
             {
+                Debug.Log("!");
                 if (Input.GetMouseButton(0))
                 {
-                    Cursor.visible = false;
-                    Cursor.lockState = CursorLockMode.Locked;
                     velocityX += rotationSmoothing * 150 * Input.GetAxis("Mouse X") * distanceToTarget * 10 * 0.02f;
                     velocityY += rotationSmoothing * 150 * Input.GetAxis("Mouse Y") * 0.02f;
                 }

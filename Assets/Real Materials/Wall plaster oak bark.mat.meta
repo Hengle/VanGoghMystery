@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 18d976f3b0cac8945aa6b4d67f56a710
+labels:
+- PBR
+- material
+- texture
+- wall
+- bark
+- oak
+- plaster
+- concrete
+- pattern
+- acrylic
+timeCreated: 1442353869
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,6 +16,8 @@ public class Global : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        // disable mouse
+        Cursor.visible = false;
 
         PhotonNetwork.PrefabPool.RegisterPrefab(female.name, female);
         PhotonNetwork.PrefabPool.RegisterPrefab(male.name, male);

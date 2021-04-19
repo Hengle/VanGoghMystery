@@ -15,12 +15,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;                   // the world-relative desired move direction, calculated from the camForward and user input.
 
 
-        public Button pickup;
-        public Button escape;
-        public Button inventory;
+        Button pickup;
+        Button escape;
+        Button inventory;
 
         private void Start()
         {
+            Cursor.visible = false;
+            pickup = GameObject.Find("PICKUP").GetComponent<Button>();
+            escape = GameObject.Find("ESC").GetComponent<Button>();
+            inventory = GameObject.Find("INVENTORY").GetComponent<Button>();
             if (photonView.IsMine == false && PhotonNetwork.IsConnected == true)
             {
                 return;
@@ -42,12 +46,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         void Update()
         {
-
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                Debug.Log("Try pickup");
-                if (pickup.IsInteractable()) pickup.Select();
-            }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Show inventory");
@@ -55,6 +53,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 Debug.Log("Show EXIT MENU");
+                Application.Quit();
             }
         }
         // Fixed update is called in sync with physics

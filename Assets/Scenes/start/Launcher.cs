@@ -5,13 +5,14 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.UI;
 using TMPro;
+using FM;
 public class Launcher : MonoBehaviourPunCallbacks
 {
     public GameObject roompanel;
     public GameObject waiting_text;
     public GameObject room_button;
     public GameObject start_button;
-    public Animator button_animator;
+    public Canvas uicanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +48,12 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
 
         Debug.Log("Room!");
-        Application.LoadLevel("Scenes/bedroom/bedroom");
+
+        //Application.LoadLevel("Scenes/bedroom/bedroom");
+        string levelToLoad = "Scenes/bedroom/bedroom";
+
+        SceneLoader.instance.LoadScene(levelToLoad);
+
     }
 
 

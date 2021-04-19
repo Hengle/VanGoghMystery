@@ -6,11 +6,12 @@ public class interactive_obj : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public string name;
-
+    public string objname;
+    public string hinttext;
+    public Camera objcamera;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,8 +20,7 @@ public class interactive_obj : MonoBehaviour
         
     }
 
-    public void pickup()
+    virtual public void pickup()
     {
-        Debug.Log("inside interactive obj: pickup");
     }
 }
