@@ -176,11 +176,11 @@ MonoBehaviour:
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
-  taaSharpenStrength: 0.6
-  TAAQuality: 1
+  taaSharpenStrength: 0.715
+  TAAQuality: 2
   taaHistorySharpening: 0.35
-  taaAntiFlicker: 0.5
-  taaMotionVectorRejection: 0
+  taaAntiFlicker: 0.536
+  taaMotionVectorRejection: 0.09
   taaAntiHistoryRinging: 0
   physicalParameters:
     m_Iso: 200

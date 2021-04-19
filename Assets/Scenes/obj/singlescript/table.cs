@@ -23,6 +23,7 @@ public class table : interactive_obj
     {
         if (zoom && Input.GetKeyDown(KeyCode.F)) {
             zoom = false;
+            objcamera.gameObject.active = false;
             objcamera.enabled = false;
             thirdperson_camera.enabled = true;
             thirdperson_camera.gameObject.active = true;
@@ -34,6 +35,7 @@ public class table : interactive_obj
     public override void pickup()
     {
         Debug.Log("table pickup!");
+        objcamera.gameObject.active = true;
         objcamera.enabled = true;
         thirdperson_camera.enabled = false;
         thirdperson_camera.gameObject.active = false;

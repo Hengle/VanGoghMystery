@@ -49,7 +49,7 @@ namespace Balrond3PersonMovements
         {
             if (target)
             {
-                Debug.Log("!");
+                //Debug.Log("!");
                 if (Input.GetMouseButton(0))
                 {
                     velocityX += rotationSmoothing * 150 * Input.GetAxis("Mouse X") * distanceToTarget * 10 * 0.02f;
