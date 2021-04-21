@@ -35,12 +35,16 @@ public class table : interactive_obj
     public override void pickup()
     {
         Debug.Log("table pickup!");
+
+        thirdperson_camera = Camera.main;
+
+
         objcamera.gameObject.active = true;
         objcamera.enabled = true;
         thirdperson_camera.enabled = false;
         thirdperson_camera.gameObject.active = false;
         zoom = true;
-        hint.setMessege("The vase is empty...");
+        hint.setMessege("There are 6 sunflowers in the vase.");
         itemcast.active = false;
     }
 }

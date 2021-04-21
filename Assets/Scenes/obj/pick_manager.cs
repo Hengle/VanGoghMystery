@@ -23,7 +23,7 @@ public class pick_manager : MonoBehaviour
         RaycastHit cameraHit;
         Ray cameraAim = Camera.main.GetComponent<Camera>().ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
 
-        if (Physics.SphereCast(cameraAim.origin, 1f, cameraAim.direction, out cameraHit, 0.8f, myLayerMask))
+        if (Physics.SphereCast(cameraAim.origin, 0.6f, cameraAim.direction, out cameraHit, 0.6f, myLayerMask))
         {
             GameObject g = cameraHit.transform.gameObject;
             interactive_obj o = g.GetComponent<interactive_obj>();

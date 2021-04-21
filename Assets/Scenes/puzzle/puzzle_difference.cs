@@ -62,7 +62,7 @@ public class puzzle_difference : interactive_obj
 
         found++;
         if (found == 5) {
-            Debug.Log("233");
+            hint.setMessege("There are <b>five<b> difference.");
         }
     }
 
